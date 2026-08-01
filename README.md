@@ -1,14 +1,54 @@
 # caythongnoel_bash
-CodeCây thông noel nè
-XXX = I do not own any copyright to the above source code, all source code is for entertainment purposes only, collected from many sources many authors
-"hướng dẫn làm" my youtobe https://www.youtube.com/@WiWuy20
-my tiktok https://www.tiktok.com/@iamwuy20
-Hình ảnh minh họa.
 
+ASCII Christmas tree animation in Bash — made for fun and terminal vibes.
 
+## Preview
 
+<img src="https://github.com/huytran1120/caythongnoel_bash/blob/3ed28434b9dfae314c30d0e222fc28fa6689128b/Screenshot%202022-12-21%20224221.png" width="320" alt="Christmas tree terminal preview" />
 
+## Features
 
+- Animated Christmas tree in terminal
+- Blinking ornaments with random colors
+- Falling snow effect
+- Rotating festive messages
+- Works with Docker
 
+## Project files
 
-<img src="https://github.com/huytran1120/caythongnoel_bash/blob/3ed28434b9dfae314c30d0e222fc28fa6689128b/Screenshot%202022-12-21%20224221.png" width="300" alt="Android demo app" />
+- Script: [`caythong.sh`](./caythong.sh)
+- Container setup: [`Dockerfile`](./Dockerfile)
+
+## Run locally
+
+### Linux/macOS
+
+```bash
+bash caythong.sh
+```
+
+### Windows (PowerShell + Git Bash)
+
+If `bash caythong.sh` shows a WSL `/bin/bash` error, run with Git Bash directly:
+
+```powershell
+& "C:\Program Files\Git\bin\bash.exe" "C:/Users/huytc/OneDrive/Documents/GitHub/caythongnoel_bash/caythong.sh"
+```
+
+Press `Ctrl + C` to stop.
+
+## Run with Docker
+
+```powershell
+docker build -t caythong-vibe .
+docker run --rm -it caythong-vibe
+```
+
+## Creator
+
+- YouTube: https://www.youtube.com/@WiWuy20
+- TikTok: https://www.tiktok.com/@iamwuy20
+
+## License
+
+This project is released under the MIT License. See [`LICENSE`](./LICENSE).
