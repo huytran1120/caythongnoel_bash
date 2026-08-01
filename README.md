@@ -44,11 +44,6 @@ docker build -t caythong-vibe .
 docker run --rm -it caythong-vibe
 ```
 
-## Creator
-
-- YouTube: https://www.youtube.com/@WiWuy20
-- TikTok: https://www.tiktok.com/@iamwuy20
-
 ## License
 
 This project is released under the MIT License. See [`LICENSE`](./LICENSE).
